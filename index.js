@@ -1,4 +1,4 @@
-//...........user's choice using arrow function
+//...........user's choice
 
 const getUserChoice = userInput => {
     userInput = userInput.toLowerCase();
@@ -23,7 +23,7 @@ function getComputerChoice() {
     }
 };
 
-//.......to determine the winner using conditional statements
+//.......determine the winner
 
 const determineWinner = (userChoice, computerChoice) => {
 
@@ -59,15 +59,14 @@ const determineWinner = (userChoice, computerChoice) => {
 }
 
 
-//          declaring/getting html elements
+//           html elements
 const message = document.getElementById('message')
 const compChoice = document.getElementById('computer_choice')
 
-//.............html table 
-// const tableScores = document.getElementById('Tscores')
 
-//........ queryselectorall for elements with the same class
-const buttons = document.querySelectorAll('.flex-item')
+//............score table 
+ 
+ const buttons = document.querySelectorAll('.flex-item')
 
 
 //............apend table 
@@ -92,20 +91,17 @@ const playGame = (choice) => {
     //.......getting the output for message
     const result = determineWinner(userChoice, computerChoice)
 
-    //.......to display table
-    // table(userChoice, computerChoice, result)
-
+  
     //.......to print message to screen
     message.innerHTML = result
 
-    //.........to print computer's choice to the screen
-    compChoice.innerHTML = `the computer selected ${computerChoice}`
+     compChoice.innerHTML = `the computer selected ${computerChoice}`
 
 }
 
 
 
-//button function
+//button
 function button(btn) {
 
     btn.addEventListener('click', () => {
