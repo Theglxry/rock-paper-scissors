@@ -12,7 +12,7 @@ Visit the live link: https://rock-paper-scissors-djs.netlify.app
 
 #### Screenshots
 
-![Screenshot of Rock, Paper, Scissors Game] (/screenshot/Screenshot1.jpg)
+ 
 
 
 2.
