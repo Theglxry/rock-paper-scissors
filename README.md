@@ -10,3 +10,22 @@ Visit the live link: https://rock-paper-scissors-djs.netlify.app
 3. The winner of the round will be displayed, and the score will be updated.
  
 
+#### Screenshots
+1.
+
+
+2.
+
+#### Technologies Used
+HTML
+CSS
+JavaScript
+
+#### Live Link
+  https://rock-paper-scissors-djs.netlify.app
+
+Credits
+This game was created by Theglxry.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
